@@ -1,0 +1,19 @@
+{
+  "name": "alpha1",
+  "version": "1.0.0",
+  "description": "\"versao inicial com conceitos e tecnicas experimentais do projeto. Projeto esse que trata de apresentacao de conceitos sobre seguranca da informacao\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodtccds/ProjectTeste.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prodtccds/ProjectTeste/issues"
+  },
+  "homepage": "https://github.com/prodtccds/ProjectTeste#readme"
+}
