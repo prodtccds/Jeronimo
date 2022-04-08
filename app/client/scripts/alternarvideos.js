@@ -8,4 +8,4 @@ function alterandoVideos() {
     video.src = sources[ramdomNumber(0, 2)];
 }
 
-window.setInterval(alterandoVideos, 40000);
+window.setInterval(alterandoVideos, 1000);
