@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom'
 
-import Home from './pages/Home';
+import Home from './pages';
 import Seguranca from './pages/Seguranca';
 import Testes from './pages/Testes';
 import Sobre from './pages/Sobre';
@@ -15,23 +15,11 @@ function App() {
       <NavBar />
 
       <Routes>
-
-        <Route path='/' exact>
-          <Home />
-        </Route>
-        <Route path='/testes'>
-          <Testes />
-        </Route>
-        <Route path='/Sobre'>
-          <Sobre />
-        </Route>
-        <Route path='/vulnerabilidades'>
-          <Vulnerabilidades />
-        </Route>
-        <Route path='/seguranca'>
-          <Seguranca />
-        </Route>
-
+          <Route path="/" exact element={<Home />} />
+          <Route path="/seguranca" element={<Seguranca/>} />
+          <Route path="/testes" element={<Testes />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/vulnerabilidades" element={<Vulnerabilidades />} />
       </Routes>
     </Router>
   );
