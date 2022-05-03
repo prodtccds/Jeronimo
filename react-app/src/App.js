@@ -1,19 +1,21 @@
 import './App.css';
-import NavBar from './components/NavBar';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom'
 
+import './pages/styles/home.css';
+import Navbar from './components/Navbar';
 import Home from './pages';
 import Seguranca from './pages/Seguranca';
 import Testes from './pages/Testes';
 import Sobre from './pages/Sobre';
-import Vulnerabilidades from './pages/Vulnerabiliades';
+import Vulnerabilidades from './pages/Vulnerabilidades';
 
 function App() {
   return (
     <Router>
-      <NavBar />
 
+      <Navbar />
+  
       <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/seguranca" element={<Seguranca/>} />
