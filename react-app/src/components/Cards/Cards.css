@@ -1,6 +1,6 @@
 .cards {
         padding: 4rem;
-        background: #000;
+        background: rgb(1, 0, 11);
         color: #fff;
         position: relative;
       }
@@ -67,8 +67,11 @@
         max-width: calc((100%) - 60px);
         font-size: 12px;
         font-weight: 700;
-        color: #fff;
-        background-color: #1f98f4;
+        color: rgb(82, 166, 74);
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        background-color: #000000;
+        box-shadow: rgb(0, 0, 0);
         box-sizing: border-box;
       }
       
@@ -96,7 +99,7 @@
       }
       
       .cards__item__text {
-        color: #252e48;
+        color: #ffffff;
         font-size: 18px;
         line-height: 24px;
       }

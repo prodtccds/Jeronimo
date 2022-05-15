@@ -36,8 +36,8 @@ function Cards() {
             />
             <CardItem
               src={protect}
-              text=''
-              label='Mecanismos de Defesa e Ataque'
+              text='Mecanismos de Defesa e Ataque'
+              label='Ferramentas'
               path='/vulnerabilidades'
             />
             <CardItem
