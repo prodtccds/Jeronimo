@@ -28,8 +28,8 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>Sobre o Projeto</Link>
+            <h2>Sobre </h2>
+            <Link to='/sign-up'>Projeto</Link>
             <Link to='/'>Equipe</Link>
             <Link to='/'>Material Referencial</Link>
             <Link to='/'>Indicação de conteúdo</Link>
