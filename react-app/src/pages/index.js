@@ -1,9 +1,7 @@
 import React from 'react';
 import "./styles/home.css"
 import "../App.css";
-import programando from "./assets/programando.mp4";
 import Hud from './assets/Hud.mp4'
-import { useState } from 'react';
 import Cards from '../components/Cards';
 export default function Home() {
         return (

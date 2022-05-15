@@ -3,7 +3,7 @@
 *::before {
   margin: 0;
   box-sizing: border-box;
-  font-family: Market Deco
+  font-family:'Courier New', Courier, monospace;
 }
 html {
   font-size: 62.5%;
