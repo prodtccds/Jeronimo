@@ -3,6 +3,7 @@ import "./styles/home.css"
 import "../App.css";
 import Hud from './assets/Hud.mp4'
 import Cards from '../components/Cards';
+
 export default function Home() {
         return (
 
@@ -27,7 +28,7 @@ export default function Home() {
                          </div>
                         
                         <div className='card__wrapper'>
-                                <Cards/>
+                             <Cards />
                         </div>
 
                 </div>

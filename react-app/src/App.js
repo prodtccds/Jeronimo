@@ -10,6 +10,7 @@ import Seguranca from './pages/Seguranca';
 import Testes from './pages/Testes';
 import Sobre from './pages/Sobre';
 import Vulnerabilidades from './pages/Vulnerabilidades';
+
 function App() {
   return (
     <Router>
