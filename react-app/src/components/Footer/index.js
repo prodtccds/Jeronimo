@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Mergulhe no mundo da tecnologia assinando nossa Newsletter!
+         HashRouter presente
         </p>
         <p className='footer-subscription-text'>
           Preencha com seu E-mail e enviaremos o acesso!
