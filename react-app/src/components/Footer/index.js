@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-         HashRouter presente
+         Assine Nossa Newsletter!
         </p>
         <p className='footer-subscription-text'>
           Preencha com seu E-mail e enviaremos o acesso!
@@ -43,7 +43,7 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Documentação</h2>
+            <h2>Descrição</h2>
             <Link to='/'>Projeto</Link>
             <Link to='/'>Kali Linux</Link>
             <Link to='/'>Ubuntu</Link>
@@ -67,48 +67,6 @@ function Footer() {
             </Link>
           </div>
           <small class='website-rights'>JERÔNIMO © 2022</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
         </div>
       </section>
     </div>

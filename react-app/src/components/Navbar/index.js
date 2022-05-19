@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import App from "../../navbar.css";
+import "./style/navbar.css";
 
 
 function Navbar() {
@@ -10,7 +10,7 @@ function Navbar() {
       setActive("nav__menu nav__active");
     } else setActive("nav__menu");
 
-    // Icon Toggler
+    // Icone Toggler
     if (icon === "nav__toggler") {
       setIcon("nav__toggler toggle");
     } else setIcon("nav__toggler");
@@ -22,11 +22,6 @@ function Navbar() {
         <b>  Jerônimo </b>
       </a>
       <ul className={active}>
-        <li className="nav__item">
-          <a href="/" className="nav__link">
-            <b> Home </b>
-          </a>
-        </li>
         <li className="nav__item">
           <a href="/seguranca" className="nav__link">
             <b> Segurança </b>

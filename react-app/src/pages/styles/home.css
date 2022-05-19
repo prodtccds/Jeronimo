@@ -107,6 +107,7 @@ a:active{
         object-fit: contain;
         justify-content: center;
         color: #fff;
+        text-align: center;
 }
 
 .card__wrapper{
