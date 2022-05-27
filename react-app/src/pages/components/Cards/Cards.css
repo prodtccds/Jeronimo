@@ -54,7 +54,7 @@
       
       .fade-img {
         animation-name: fade-img;
-        animation-duration: 2s;
+        animation-duration: 1s;
       }
       
       .cards__item__pic-wrap::after {

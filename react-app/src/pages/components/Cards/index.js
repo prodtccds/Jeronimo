@@ -2,6 +2,10 @@ import React from 'react';
 import './Cards.css';
 import CardItem from '../CardItem';
 
+import datacenter from './assets/datacenter.jpg'
+import devteam from './assets/devteam.jpg'
+import sql from './assets/sql.jpg'
+import vision from './assets/visionhacker.jpg';
 import hack from './assets/hack.jpg';
 import protect from './assets/protect.jpg';
 import security from './assets/security.jpg';
@@ -46,6 +50,8 @@ export default function Cards() {
               label='Testes'
               path='/testes'
             />
+
+    
           </ul>
         </div>
       </div>

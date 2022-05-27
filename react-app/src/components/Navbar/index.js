@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style/navbar.css";
-
+import logodois from "./assets/jeronim-logo-dois.png";
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -19,22 +19,22 @@ function Navbar() {
     <nav className="nav">
 
       <a href="/" className="nav__brand">
-        <b>  Jerônimo </b>
+      <b>JERÔNIMO</b>
       </a>
       <ul className={active}>
         <li className="nav__item">
+          <a href="/blog" className="nav__link">
+            <b> BLOG </b>
+          </a>
+        </li>
+        <li className="nav__item">
           <a href="/seguranca" className="nav__link">
-            <b> Segurança </b>
+            <b>SEGURANÇA E VULNERABILIDADES</b>
           </a>
         </li>
         <li className="nav__item">
-          <a href="vulnerabilidades" className="nav__link">
-            <b>Vulnerabilidades </b>
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="/testes" className="nav__link">
-            <b> Testes </b>
+          <a href="/tutoriais" className="nav__link">
+            <b> TUTORIAIS</b>
           </a>
         </li>
         <li className="nav__item">

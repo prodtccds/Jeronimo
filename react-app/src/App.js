@@ -6,10 +6,10 @@ import './pages/styles/home.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages';
-import Seguranca from './pages/Seguranca';
-import Testes from './pages/Testes';
-import Sobre from './pages/Sobre';
-import Vulnerabilidades from './pages/Vulnerabilidades';
+import Hacker from './pages/Hacker';
+import Tutoriais from './pages/Tutoriais';
+import Blog from './pages/Blog';
+import Sobre from './pages/Sobre'
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
 
       <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/seguranca" element={<Seguranca/>} />
-          <Route path="/testes" element={<Testes />} />
+          <Route path="/blog" element={<Blog/>} />
+          <Route path="/hacker" element={<Hacker/>} />
+          <Route path="/tutoriais" element={<Tutoriais/>} />
           <Route path="/sobre" element={<Sobre />} />
-          <Route path="/vulnerabilidades" element={<Vulnerabilidades />} />
       </Routes>
 
 

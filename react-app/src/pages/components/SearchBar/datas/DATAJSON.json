@@ -1,0 +1,19 @@
+ [ {
+                "id": 1,
+                "term" : "segurança",
+                "message" : "Explore sobre segurança da informação",
+                "url" : "/seguranca"
+        },
+        {
+                "id": 2,
+                "term" : "vulnerabilidades",
+                "message": "Principais vulnerabilidades web",
+                "url": "/vulnerabilidades"
+        },
+        {
+                "id": 3,
+                "term" : "testes",
+                "message": "Aprenda a realizar um teste em aplicações web",
+                "url": "/testes"
+        }
+]

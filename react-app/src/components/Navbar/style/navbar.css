@@ -25,9 +25,13 @@ a {
   justify-content: space-around;
   height: 9vh;
   background: rgb(7, 7, 7);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
 }
 .nav__brand {
-  text-transform: uppercase;
+  max-width: 100px;
+  max-height: 20px;
 }
 
 .nav__menu {
@@ -54,7 +58,7 @@ a {
     cursor: pointer;
   }
   .nav__menu {
-    position: fixed;
+    position:absolute;
     top: 7vh;
     right: 0;
     height: 93vh;
@@ -81,4 +85,20 @@ a {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-4px, -5px);
+}
+
+.nav__link{
+  transition: color 0.5 ease-in;
+}
+
+.nav__link:focus{
+  background-color:  rgba(38, 189, 0, 0.03);
+}
+
+.nav{
+  transition: background-color 0.5s ease-in;
+}
+
+.nav:focus {
+  background-color: rgba(38, 189, 0, 0.03);
 }

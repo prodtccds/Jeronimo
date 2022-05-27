@@ -1,17 +1,14 @@
 import React from 'react';
-import "./styles/home.css"
-import "../App.css";
-import Cards from './components/Cards'
-import Esc from './assets/escrevendodois.mp4'
-
+import Cards from './components/Cards';
+import Escdois from './assets/escrevendodois.mp4';
+import "./styles/home.css";
 
 export default function Home() {
         return (
-
                 <div className='hero-container' >
-
                         <div className='background__area'>
-                                <video src={Esc} autoPlay loop muted />
+                                <video src={Escdois} autoPlay loop muted />
+                                
                                 <h1 >SEJA UM HACKER</h1>
                                 <h3>Fique por dentro dos principais conceitos de segururança e web hacking!</h3>
                                 <br></br>
