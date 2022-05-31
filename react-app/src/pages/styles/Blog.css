@@ -1,6 +1,19 @@
 .home__container{
         color: white;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     
+        object-fit: contain;
+        align-items: center;
 }
 
+
+.home__container .search__area{
+        position:relative;
+        top: 0;
+
+}
+
+.home__container .content{
+        background-color: #0D0D0D;
+        color: white;
+        align-items: center;
+}

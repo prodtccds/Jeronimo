@@ -11,6 +11,7 @@ import Tutoriais from './pages/Tutoriais';
 import Blog from './pages/Blog';
 import Sobre from './pages/Sobre'
 
+
 function App() {
   return (
     <Router>

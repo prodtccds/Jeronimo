@@ -1,7 +1,7 @@
  [ {
                 "id": 1,
                 "term" : "segurança",
-                "message" : "Explore sobre segurança da informação",
+                "message" : "Explore sobre os pilares da informação",
                 "url" : "/seguranca"
         },
         {
@@ -12,8 +12,20 @@
         },
         {
                 "id": 3,
-                "term" : "testes",
+                "term" : "Testes de Aplicações com Kali Linux",
                 "message": "Aprenda a realizar um teste em aplicações web",
                 "url": "/testes"
+        },
+        {
+                "id": 4,
+                "term": "Jargões de segurança da Informação",
+                "message": "O signifidado das palavras complicadas em segurança",
+                "url": "/seguranca"
+        },
+        {
+                "id": 5,
+                "term": "Criptografia e seus tipos",
+                "message": "Tipos de códigos utilizados para criptografia e suas evoluções",
+                "url": "/seguranca"
         }
 ]

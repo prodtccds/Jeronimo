@@ -8,12 +8,16 @@ export default function SearchBar() {
 
         return (
                 <div className="container">
+
+
+           
                         <form>
                                 <input type="search"
-                                        placeholder="procure por um artigo..."
+                                        placeholder="Procure um artigo"
                                         onChange={(e) => {
                                                 setSearchTerm(e.target.value);
-                                        }} />
+                                        }} /> 
+                                        
                         </form>
                         {JSONDATA.filter((val) => {
                                 if (searchTerm == "") {

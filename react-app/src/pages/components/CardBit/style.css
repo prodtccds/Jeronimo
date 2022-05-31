@@ -1,9 +1,9 @@
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 26rem));
   gap: 2rem;
   justify-content: center;
-  background-color: #171a1a;
+  background-color:#0D0D0D;
   overflow: hidden;
 }
 
@@ -16,6 +16,7 @@
   justify-content: space-between;
   cursor: pointer;
   transition: transform 200ms;
+  background-color: #000000;
 }
 
 .card__image {

@@ -1,0 +1,24 @@
+.wrapper__container{
+        align-items: center;
+        background-color: black;
+        color: white;
+    
+}
+
+
+.title__container{
+        padding-top: 5px;
+        height: 300px;
+        overflow:hidden;
+        object-fit: cover;
+        background-image: url("../CardBit/imgs/webnavigation.jpg");
+}
+   
+
+.text__container{
+        width: 80%;
+        height: 100%;
+        align-self: center;
+}
+
+
