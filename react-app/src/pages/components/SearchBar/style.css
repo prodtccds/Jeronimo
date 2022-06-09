@@ -8,7 +8,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-image: url("./imgs/matrixblack.jpg");
+        background-image: url("../CardBit/imgs/server.jpg");
 }
 
 
@@ -46,7 +46,6 @@
 
 .container .search__results ul {
         overflow-x: hidden;
-        display: none;
 }
 
 .container .search__results ul li {

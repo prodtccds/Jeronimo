@@ -1,0 +1,29 @@
+.wrapper__container{
+        align-items: center;
+        background-color: #232627;
+        color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+}
+
+
+.title__container{
+        padding-top: 5px;
+        height: 300px;
+        overflow:hidden;
+        object-fit: cover;
+        color: aliceblue;
+}
+   
+
+.text__container{
+        width: 60%;
+        height: 100%;
+        align-self: center;
+        text-align: left;
+ 
+        line-height: 2;
+}
+
+

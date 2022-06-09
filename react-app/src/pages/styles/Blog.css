@@ -4,8 +4,9 @@
         object-fit: contain;
         align-items: center;
 }
-
-
+.seach{
+        align-items: center;
+}
 .home__container .search__area{
         position:relative;
         top: 0;

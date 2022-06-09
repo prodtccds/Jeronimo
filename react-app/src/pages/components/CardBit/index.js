@@ -15,14 +15,14 @@ import sql from './imgs/sql.jpg'
 import hacktemplate from "./imgs/hacktemplate.jpg";
 import hackterminal from "./imgs/hackterminal.jpg"
 
-export default function CardBit() {
+ export default function CardBit() {
   return (
     <div className="wrapper">
       <Card
         img={security}
         title="SEGURANÇA DA INFORMAÇÃO"
         description="Aprenda sobre os principais conceitos da segurança da informação, bem com seus pilares"
-        path="/hacker"
+        path="/pilares"
       />
 
       <Card
@@ -39,13 +39,7 @@ export default function CardBit() {
         path="/tutoriais"
       />
 
-      <Card
-        img={server}
-        title="Tipos de Criptografia"
-        description="Leia sobre as bases da criptografia, para entender sua evolução até os dias atuais"
-        path="/hacker"
-      />
-
+    
       <Card
         img={sql}
         title="Vulnerabilidades na Web"
@@ -56,7 +50,8 @@ export default function CardBit() {
       <Card
         img={webnavigation}
         title="Jargões de segurança"
-        description="Baked Cod with Vegetables. 30 minute meal!"
+        description="Principais Jargões e termos de de segurança utilizados."
+        path="/termos"
       />
 
       <Card
@@ -79,8 +74,7 @@ export default function CardBit() {
     </div>
   );
 }
-
-function Card(props) {
+ function Card(props) {
   return (
     <div className="card">
       <div className="card__body">

@@ -1,10 +1,15 @@
 import React from 'react';
-import ContactForm from './components/ContactForm';
 
-export default function Sobre () {
-  return(
-  <div>
-      <ContactForm />
-  </div>
+
+export default function Sobre() {
+  return (
+    <div style={
+      {
+        alignItems: "center",
+        justifyContent: "center",
+      }
+    }>
+
+    </div>
   );
 }

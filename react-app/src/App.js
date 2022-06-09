@@ -10,6 +10,7 @@ import Hacker from './pages/Hacker';
 import Tutoriais from './pages/Tutoriais';
 import Blog from './pages/Blog';
 import Sobre from './pages/Sobre'
+import PilaresPage from './pages/components/BlogPages/PilaresPage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/hacker" element={<Hacker/>} />
           <Route path="/tutoriais" element={<Tutoriais/>} />
           <Route path="/sobre" element={<Sobre />} />
+          <Route path="/pilares" element={<PilaresPage />} />
       </Routes>
 
 

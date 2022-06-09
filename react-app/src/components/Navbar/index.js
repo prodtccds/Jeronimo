@@ -28,11 +28,6 @@ function Navbar() {
           </a>
         </li>
         <li className="nav__item">
-          <a href="/seguranca" className="nav__link">
-            <b>SEGURANÇA E VULNERABILIDADES</b>
-          </a>
-        </li>
-        <li className="nav__item">
           <a href="/tutoriais" className="nav__link">
             <b> TUTORIAIS</b>
           </a>

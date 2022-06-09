@@ -3,6 +3,7 @@ import './footer.css';
 import { Link } from 'react-router-dom';
 import instaIcon from "./imgs/insta.png";
 import gitIcon from "./imgs/git.png";
+import ContactForm from '../../pages/components/ContactForm';
 
 function Footer() {
   return (
@@ -15,14 +16,7 @@ function Footer() {
           Preencha com seu E-mail e enviaremos o acesso!
         </p>
         <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Seu e-mail' />
-
-          </form>
+          <ContactForm />
         </div>
       </section>
       <div class='footer-links'>
