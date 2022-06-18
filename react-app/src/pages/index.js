@@ -3,6 +3,8 @@ import Cards from './components/Cards';
 import Escdois from './assets/escrevendodois.mp4';
 import "./styles/home.css";
 
+
+
 export default function Home() {
         return (
                 <div className='hero-container' >
@@ -25,6 +27,7 @@ export default function Home() {
                         <div className='card__wrapper'>
                                 <Cards />
                         </div>
+
 
                 </div>
         );

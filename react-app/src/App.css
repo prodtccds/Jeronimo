@@ -2,7 +2,19 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 
+  @media screen and(min-width: 992px){
+    overflow-x: hidden;
+}
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
