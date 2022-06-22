@@ -6,6 +6,7 @@ import datacenter from './assets/datacenter.jpg'
 import devteam from './assets/devteam.jpg'
 import sql from './assets/sql.jpg'
 import vision from './assets/visionhacker.jpg';
+import kaliLogo from "../CardBit/imgs/kaliLogo.jpg";
 import hack from './assets/hack.jpg';
 import protect from './assets/protect.jpg';
 import security from './assets/security.jpg';
@@ -22,33 +23,33 @@ export default function Cards() {
               src={security}
               text='Introdução a segurança e jargões utilizados'
               label='Segurança'
-              path='/seguranca'
+              path='/jargoes'
             />
             <CardItem
               src={server}
-              text='Funcionamento de servidores Web'
-              label='Servidores'
-              path='/seguranca'
+              text='Ataques de Session Hijacking'
+              label='Ataques'
+              path='/session'
             />
           </ul>
           <ul className=''>
             <CardItem
               src= {hack}
-              text='Principais Vulnerabilidades'
-              label='Vulnerabilidades'
-              path='/vulnerabilidades'
+              text='SQL Injecition, o principal ataque a principal vulnerabilidade'
+              label='Ataques'
+              path='/sql'
             />
             <CardItem
               src={protect}
-              text='Mecanismos de Defesa e Ataque'
-              label='Ferramentas'
-              path='/vulnerabilidades'
+              text='XSS, funcionamento e como se proteger'
+              label='Ataques'
+              path='/xss'
             />
             <CardItem
-              src={test}
-              text='Testes de invasão com o kali linux'
-              label='Testes'
-              path='/testes'
+              src={kaliLogo}
+              text='Aprenda a utilizar o Kali Linux'
+              label='Tutoriais'
+              path='/instalarKali'
             />
 
     

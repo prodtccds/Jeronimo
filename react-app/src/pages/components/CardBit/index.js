@@ -2,17 +2,12 @@ import React from "react";
 import './style.css';
 import security from "./imgs/security.jpg";
 import arch from './imgs/arch.jpg';
-import datacenter from './imgs/datacenter.jpg';
-import devteam from './imgs/devteam.jpg';
 import visionhacker from "./imgs/visionhacker.jpg";
-import development from "./imgs/development.jpg";
 import webnavigation from "./imgs/webnavigation.jpg";
-import hack from './imgs/hack.jpg';
 import protect from './imgs/protect.jpg';
-import server from './imgs/server.jpg'
-import test from "./imgs/test.jpg"
-import sql from './imgs/sql.jpg'
-import hacktemplate from "./imgs/hacktemplate.jpg";
+import test from "./imgs/test.jpg";
+import sql from './imgs/sql.jpg';
+import kaliLogo from './imgs/kaliLogo.jpg';
 import hackterminal from "./imgs/hackterminal.jpg"
 
  export default function CardBit() {
@@ -29,22 +24,22 @@ import hackterminal from "./imgs/hackterminal.jpg"
         img={protect}
         title="Proteção"
         description="Mecanismos e Ferramentas de proteção web"
-        path="/hacker"
+        path="/protecao"
         />
 
       <Card
-        img={test}
+        img={kaliLogo}
         title="Tutorial de instalação do Kali Linux"
         description="Aprenda a instalar o melhor SO para Hackers! "
-        path="/tutoriais"
+        path="/instalarKali"
       />
 
     
       <Card
         img={sql}
-        title="Vulnerabilidades na Web"
-        description="As principais vulnerabilidades em ambiente web"
-        path="/hacker"
+        title="SQL Injection, o velho conhecido!"
+        description="Aprenda a realizar ataques de SQL Injection com ferramentas"
+        path="/sql"
       />
 
       <Card
@@ -56,20 +51,23 @@ import hackterminal from "./imgs/hackterminal.jpg"
 
       <Card
         img={visionhacker}
-        title="Baked Cod with Vegetables"
-        description="Baked Cod with Vegetables. 30 minute meal!"
+        title="Ataques XSS"
+        description="Como funcionam os ataque de Cross-Site Scripting"
+        path="/xss"
       />
 
       <Card
         img={hackterminal}
-        title="Baked Cod with Vegetables"
-        description="Baked Cod with Vegetables. 30 minute meal!"
+        title="Session Hijacking"
+        description="Atacar sessões e sequestramento de dados"
+        path="hijacking"
       />
 
       <Card
         img={arch}
-        title="Baked Cod with Vegetables"
-        description="Baked Cod with Vegetables. 30 minute meal!"
+        title="Arquitetura de servidores"
+        description="Como funcionam servidores web e seu gerenciamento de serviços"
+        path="servidores"
       />
     </div>
   );
@@ -82,7 +80,7 @@ import hackterminal from "./imgs/hackterminal.jpg"
         <h2 className="card__title">{props.title}</h2>
         <p className="card__description">{props.description}</p>
       </div>
-      <button className="card__btn">Ver Artigo</button>
+      <button className="card__btn"><a href={props.path}>Ver Artigo</a></button>
     </div>
   );
 }

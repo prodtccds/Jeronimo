@@ -12,7 +12,9 @@ import Blog from './pages/Blog';
 import Sobre from './pages/Sobre'
 import PilaresPage from './pages/components/BlogPages/PilaresPage';
 import Xss from './pages/components/BlogPages/Xss';
-
+import SQLInjection from "./pages/components/BlogPages/SQLInjection";
+import SessionHijacking from "./pages/components/BlogPages/SessionHijacking";
+import KaliLinux from "./pages/components/BlogPages/KaliLinux";
 
 function App() {
   return (
@@ -27,6 +29,9 @@ function App() {
           <Route path="/sobre" element={<Sobre/>} />
           <Route path="/pilares" element={<PilaresPage/>} />
           <Route path="/xss" element={<Xss/>} />
+          <Route path="/sql" element={<SQLInjection/>}/>
+          <Route path="/session" element={<SessionHijacking/>}/>
+          <Route path="instalarKali" element={<KaliLinux/>}/>
       </Routes>
 
 

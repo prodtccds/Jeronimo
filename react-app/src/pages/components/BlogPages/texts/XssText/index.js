@@ -1,6 +1,7 @@
 import React from 'react';
 import xssexample from '../imgs/exemploxss.jpg';
 import xssexampletwo from '../imgs/examplaxss.png';
+import hexadecimalimg from '../imgs/hexadecimal.png';
 export default function XssText() {
         return (
                 <>
@@ -16,9 +17,8 @@ export default function XssText() {
                         <br />
                         <p> Outro fator sobre códigos javascript para realização de ataques XSS, mesmo que haja um mecanismo que inibe a incrementação de código javascript pelo cliente na aplicação, existem formas bem triviais e convencionais para blindar o código javascript de ser detectados por mecanismos de defesa. Um deles consiste em inserir o código javascript em atributos de elementos HTML.</p>
                         <img src={xssexampletwo}/>
-                        <p>
-Além desse tipo de inserção, existem outras vias, como converter o código javascript em hexadecimal, tendo como ideia mascarar esse código javascript para que algoritmos de tratamento de XSS não consigam detectar a presença de sintaxe javascript, e, ainda sim, o navegador interpreta esse código javascript escrito em hexadecimal normalmente.</p>
-
+                        <p> Além desse tipo de inserção, existem outras vias, como converter o código javascript em hexadecimal, tendo como ideia mascarar esse código javascript para que algoritmos de tratamento de XSS não consigam detectar a presença de sintaxe javascript, e, ainda sim, o navegador interpreta esse código javascript escrito em hexadecimal normalmente.  </p>
+                        <img src={hexadecimalimg}/>
                         <br/>
                         <br/>
                         <h3>Teste seus conhecimento Em sites abaixo: </h3>

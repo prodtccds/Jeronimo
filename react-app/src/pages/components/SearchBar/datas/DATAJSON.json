@@ -6,15 +6,15 @@
         },
         {
                 "id": 2,
-                "term" : "vulnerabilidades",
-                "message": "Principais vulnerabilidades web",
-                "url": "/vulnerabilidades"
+                "term" : "SQL Injection",
+                "message": "A principal vulnerabilidade na web, o Velho conhecido SQL Injection",
+                "url": "/sql"
         },
         {
                 "id": 3,
-                "term" : "Testes de Aplicações com Kali Linux",
-                "message": "Aprenda a realizar um teste em aplicações web",
-                "url": "/testes"
+                "term" : "Cross-Site Scripting (XSS)",
+                "message": "Aprenda a realizar ataque XSS",
+                "url": "/xss"
         },
         {
                 "id": 4,

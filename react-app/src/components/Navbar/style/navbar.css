@@ -22,14 +22,20 @@ a {
   text-decoration: none;
   color: #fff;
   overflow-y: hidden;
+  letter-spacing: 1.3px;
 }
+a:hover{
+  color: chartreuse;
+}
+
+
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 9vh;
-  background: rgb(7, 7, 7);
+  background: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 17px;
   font-family:'Poppins', sans-serif;
@@ -72,7 +78,7 @@ a {
     right: 0;
     height: 93vh;
     width: 50vw;
-    background: rgb(7, 7, 7);
+    background: rgb(0, 0, 0);
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
@@ -102,7 +108,7 @@ a {
 }
 
 .nav__link:focus{
-  background-color:  rgba(38, 189, 0, 0.03);
+  background-color:  rgba(48, 239, 0, 0.03);
 }
 
 .nav{
@@ -110,5 +116,5 @@ a {
 }
 
 .nav:focus {
-  background-color: rgba(38, 189, 0, 0.03);
+  background-color: rgba(49, 199, 11, 0.03);
 }

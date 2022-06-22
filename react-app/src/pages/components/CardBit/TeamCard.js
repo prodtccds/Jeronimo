@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 
-export default function relativeCard({img, title, description, path}) {
+export default function TeamCard({img, title, description, path}) {
         return (
                 <div className="card">
                 <div className="card__body">
@@ -10,7 +10,7 @@ export default function relativeCard({img, title, description, path}) {
                   <h2 className="card__title">{title}</h2>
                   <p className="card__description">{description}</p>
                 </div>
-                <button className="card__btn"><a href={path}>Ver Artigo</a></button>
+                <button className="card__btn"><a href={path}>Conhecer Membro</a></button>
               </div>
         )
 }

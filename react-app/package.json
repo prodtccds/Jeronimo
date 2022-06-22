@@ -16,6 +16,7 @@
     "carousel-react-rcdev": "0.0.4",
     "emailjs-com": "^3.2.0",
     "react": "^18.0.0",
+    "react-ace-editor": "0.0.3",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",

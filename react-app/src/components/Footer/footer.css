@@ -10,6 +10,10 @@
      font-family: 'Poppins', sans-serif;
    }
    
+   a :hover{
+    color: chartreuse;
+   }
+
    .footer-subscription {
      display: flex;
      flex-direction: column;
@@ -70,13 +74,17 @@
      width: 160px;
      box-sizing: border-box;
    }
+
+   .footer-link-items a:hover{
+    color: chartreuse;
+   }
    
    .footer-link-items h2 {
      margin-bottom: 16px;
    }
    
    .footer-link-items > h2 {
-     color: #9fda9a;
+     color: #fff;
      text-transform: uppercase;
    }
    
@@ -84,6 +92,10 @@
      color: #fff;
      text-decoration: none;
      margin-bottom: 0.5rem;
+   }
+
+   .footer-link-items a :hover{
+    color: chartreuse;
    }
    
    .footer-link-items a:hover {

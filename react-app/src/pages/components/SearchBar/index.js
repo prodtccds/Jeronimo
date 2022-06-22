@@ -3,6 +3,7 @@ import './style.css';
 import JSONDATA from "./datas/DATAJSON.json";
 import { useState } from "react";
 
+
 export default function SearchBar() {
         const [searchTerm, setSearchTerm] = useState("");
 
@@ -10,14 +11,16 @@ export default function SearchBar() {
                 <div className="container">
 
 
-           
+
                         <form>
+                                <i class="fa fa-search icon" aria-hidden="true"></i>
                                 <input type="search"
                                         placeholder="Procure um artigo"
                                         onChange={(e) => {
                                                 setSearchTerm(e.target.value);
-                                        }} /> 
-                                        
+
+                                        }} />
+
                         </form>
                         {JSONDATA.filter((val) => {
                                 if (searchTerm == "") {
