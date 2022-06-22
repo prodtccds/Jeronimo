@@ -5,6 +5,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
+        letter-spacing: 0.8px;
 }
 
 
@@ -22,8 +23,29 @@
         height: 100%;
         align-self: center;
         text-align: left;
- 
+        background-color: rgba(rgba(0, 0, 0, 0.72));
         line-height: 2;
 }
 
 
+.wrapper__container .text__container a:hover{
+        color: chartreuse;
+}
+
+.wrapper__container .text_container img{
+        align-self: center;
+        max-height: 100vh;
+        max-width: 90vw;
+}
+
+h2 {
+        text-transform: uppercase;
+        background-color: black;
+        border-radius: 4px;
+        color: chartreuse;
+        text-align: center;
+}
+
+h3{
+        text-transform: uppercase;
+}

@@ -11,7 +11,7 @@ import Tutoriais from './pages/Tutoriais';
 import Blog from './pages/Blog';
 import Sobre from './pages/Sobre'
 import PilaresPage from './pages/components/BlogPages/PilaresPage';
-
+import Xss from './pages/components/BlogPages/Xss';
 
 
 function App() {
@@ -24,8 +24,9 @@ function App() {
           <Route path="/blog" element={<Blog/>} />
           <Route path="/hacker" element={<Hacker/>} />
           <Route path="/tutoriais" element={<Tutoriais/>} />
-          <Route path="/sobre" element={<Sobre />} />
-          <Route path="/pilares" element={<PilaresPage />} />
+          <Route path="/sobre" element={<Sobre/>} />
+          <Route path="/pilares" element={<PilaresPage/>} />
+          <Route path="/xss" element={<Xss/>} />
       </Routes>
 
 
